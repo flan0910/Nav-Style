@@ -1,23 +1,50 @@
-.header-main {
-
+*{
+  box-sizing: border-box;
+  background-repeat: no-repeat;
 }
 
-.header-nav {
-
+.header-nav{
+  width: 100%;
+  padding: 0.5rem;
+  justify-content: space-between;
+  display: flex;
+  display: inline-block;
 }
 
-.header-ul {
-
+.header-img{
+  vertical-align: middle;
+  max-width: 100%;
+  border-style: none;
+  height: auto;
+  margin-right: 0.5rem;
 }
 
-.header-li {
-
+.header-ul{
+  display: flex;
+  list-style-type: none;
 }
 
-.header-a {
-
+.header-a{
+  outline: 0;
+  vertical-align: middle;
+  text-decoration: none !important;
+  border-radius: 0.25rem;
+  color: #dde0e4 !important;
+  display: inline-block;
+  margin: 0.5rem 0.5rem;
+  padding: 0.5rem 0.5rem;
+  word-break: break-word;
+  background-color: #141e26;
 }
 
-.header-ing {
-    
+.logout{
+  margin-left: auto;
+}
+
+.header-li :hover{
+  background-color: #888e94;
+}
+
+.logout :hover{
+  background-color: rgb(138, 0, 0);
 }
